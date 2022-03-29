@@ -1,0 +1,370 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+
+name: STColors
+file_extensions:
+  - stcolors
+scope: source.stc
+
+contexts:
+  main:
+    - match: opal
+      scope: constant
+    - match: meatloaf
+      scope: punctuation.accessor
+    - match: vineyard
+      scope: variable.other.readwrite
+    - match: bureaucracy
+      scope: variable
+    - match: philodendron
+      scope: entity.name.class.forward-decl
+    - match: wintermint
+      scope: entity.name.function.constructor
+    - match: pastel
+      scope: constant.other.placeholder
+    - match: cascara
+      scope: entity.name.struct
+    - match: espresso
+      scope: keyword.control
+    - match: aloe
+      scope: markup.list.numbered
+    - match: primrose
+      scope: keyword.operator
+    - match: foliage
+      scope: constant.numeric.integer
+    - match: pistachio
+      scope: support.function
+    - match: battletoad
+      scope: keyword.declaration.interface
+    - match: ecological
+      scope: keyword.declaration.function
+    - match: mermaid
+      scope: invalid.deprecated
+    - match: minty
+      scope: invalid
+    - match: luscious
+      scope: comment.block
+    - match: blush
+      scope: storage.modifier
+    - match: pepper
+      scope: entity.name
+    - match: bluebell
+      scope: invalid.illegal
+    - match: inchworm
+      scope: text.html
+    - match: misty
+      scope: entity.name.impl
+    - match: candy
+      scope: entity.other.inherited-class
+    - match: grotesque
+      scope: keyword.declaration
+    - match: borderline
+      scope: meta.type
+    - match: tranquili
+      scope: markup.other
+    - match: fluffy
+      scope: meta.impl
+    - match: muted
+      scope: source.language-suffix.embedded
+    - match: orchid
+      scope: entity.name.interface
+    - match: dream
+      scope: punctuation.section.interpolation.end
+    - match: never
+      scope: entity.name.class
+    - match: eucalyptus
+      scope: entity.name.type
+    - match: plum
+      scope: constant.numeric.float.hexadecimal
+    - match: bluetiful
+      scope: constant.language
+    - match: infra
+      scope: meta.paragraph
+    - match: a
+      scope: meta.toc-list
+    - match: fresh
+      scope: variable.language
+    - match: indica
+      scope: keyword.operator.assignment
+    - match: lime
+      scope: punctuation
+    - match: midsummer
+      scope: storage.type.function
+    - match: glamour
+      scope: entity.name.label
+    - match: jazz
+      scope: meta.interface
+    - match: bluebonnet
+      scope: storage.type.struct
+    - match: endless
+      scope: entity.name.constant
+    - match: orb
+      scope: punctuation.section.braces.end
+    - match: twinkly
+      scope: constant.numeric.complex
+    - match: slice
+      scope: meta.function.return-type
+    - match: pink
+      scope: entity.name.trait
+    - match: lichen
+      scope: meta.function-call
+    - match: hippy
+      scope: punctuation.definition.string.begin
+    - match: turquoise
+      scope: meta.class
+    - match: denim
+      scope: meta.annotation.parameters
+    - match: mossy
+      scope: punctuation.terminator
+    - match: bambino
+      scope: markup.deleted
+    - match: castaway
+      scope: meta.preprocessor
+    - match: poseidon
+      scope: variable.other.member
+    - match: capital
+      scope: markup.underline
+    - match: deep
+      scope: keyword.operator.logical
+    - match: permafrost
+      scope: meta.union
+    - match: dark
+      scope: markup.raw.inline
+    - match: night
+      scope: support.module
+    - match: vegetarian
+      scope: string.quoted.single
+    - match: café
+      scope: punctuation.definition.annotation
+    - match: blackberry
+      scope: constant.character.escape
+    - match: megaman
+      scope: constant.numeric.integer.binary
+    - match: extra
+      scope: meta.block
+    - match: sky
+      scope: keyword.declaration.struct
+    - match: poison
+      scope: constant.numeric.float
+    - match: possessed
+      scope: storage
+    - match: plastic
+      scope: entity.name.union
+    - match: pea
+      scope: storage.type.trait
+    - match: fandango
+      scope: variable.parameter
+    - match: rainforest
+      scope: variable.other.constant
+    - match: high
+      scope: punctuation.definition.string.end
+    - match: pilsener
+      scope: variable.other
+    - match: malibu
+      scope: variable.function
+    - match: frozen
+      scope: string.quoted.double
+    - match: mint
+      scope: meta.enum
+    - match: lawn
+      scope: punctuation.section.group.end
+    - match: quicksand
+      scope: string.quoted.other
+    - match: golden
+      scope: entity.name.section
+    - match: watermelonade
+      scope: comment.block.documentation
+    - match: interstellar
+      scope: punctuation.definition.variable
+    - match: mangala
+      scope: storage.type.enum
+    - match: muddy
+      scope: punctuation.definition.generic.begin
+    - match: sweet
+      scope: text.xml
+    - match: cyan
+      scope: text.html.markdown
+    - match: master
+      scope: string.regexp
+    - match: wild
+      scope: markup.italic
+    - match: amore
+      scope: meta.struct
+    - match: hammam
+      scope: keyword.control.import
+    - match: ficus
+      scope: meta.parens
+    - match: wreath
+      scope: text
+    - match: desire
+      scope: support.type
+    - match: puma
+      scope: support.constant
+    - match: emerald
+      scope: constant.numeric.complex.imaginary
+    - match: pear
+      scope: meta.trait
+    - match: nebula
+      scope: support.class
+    - match: caribbean
+      scope: markup.heading
+    - match: lincoln
+      scope: constant.numeric
+    - match: mother
+      scope: meta.group
+    - match: elastic
+      scope: meta.brackets
+    - match: bloodhound
+      scope: punctuation.section.block.begin
+    - match: glorious
+      scope: constant.numeric.float.other
+    - match: mexican
+      scope: string.quoted.triple
+    - match: matt
+      scope: entity.name.function
+    - match: christmas
+      scope: punctuation.definition.keyword
+    - match: grass
+      scope: punctuation.section.parens.begin
+    - match: blues
+      scope: meta.annotation
+    - match: aphroditean
+      scope: meta.generic
+    - match: umbra
+      scope: constant.numeric.integer.other
+    - match: purple
+      scope: comment
+    - match: unicorn
+      scope: variable.annotation
+    - match: nirvana
+      scope: storage.type
+    - match: becquerel
+      scope: string
+    - match: fly
+      scope: storage.type.union
+    - match: pomegranate
+      scope: keyword
+    - match: perrywinkle
+      scope: markup
+    - match: lilac
+      scope: storage.type.interface
+    - match: candlelight
+      scope: storage.type.impl
+    - match: blueberry
+      scope: punctuation.section.brackets.end
+    - match: long
+      scope: source
+    - match: punk
+      scope: punctuation.section.block.end
+    - match: endo
+      scope: punctuation.separator
+    - match: creamed
+      scope: punctuation.separator.continuation
+    - match: pressing
+      scope: markup.bold
+    - match: mink
+      scope: punctuation.section.parens.end
+    - match: black
+      scope: punctuation.section.braces.begin
+    - match: wisteria
+      scope: punctuation.section.interpolation.begin
+    - match: beveled
+      scope: punctuation.section.group.begin
+    - match: bear
+      scope: storage.type.class
+    - match: chaotic
+      scope: punctuation.section.brackets.begin
+    - match: way
+      scope: entity.name.function.destructor
+    - match: coalmine
+      scope: meta.string
+    - match: bud
+      scope: constant.other
+    - match: mademoiselle
+      scope: meta.braces
+    - match: windfall
+      scope: constant.numeric.integer.octal
+    - match: exit
+      scope: constant.numeric.integer.hexadecimal
+    - match: olive
+      scope: constant.numeric.float.decimal
+    - match: eminence
+      scope: meta.namespace
+    - match: wood
+      scope: text.html.basic
+    - match: pesto
+      scope: markup.list.unnumbered
+    - match: green
+      scope: entity.other.attribute-name
+    - match: vicious
+      scope: meta.function.parameters
+    - match: limonana
+      scope: entity.name.enum
+    - match: periwinkle
+      scope: keyword.operator.bitwise
+    - match: hay
+      scope: markup.inserted
+    - match: crystal
+      scope: keyword.declaration.impl
+    - match: extraviolet
+      scope: constant.numeric.complex.real
+    - match: merguez
+      scope: constant.numeric.float.octal
+    - match: intoxicate
+      scope: markup.quote
+    - match: celery
+      scope: entity
+    - match: heron
+      scope: meta.annotation.identifier
+    - match: german
+      scope: constant.numeric.integer.decimal
+    - match: billiard
+      scope: entity.name.namespace
+    - match: weissbier
+      scope: punctuation.definition.comment
+    - match: fruity
+      scope: keyword.operator.arithmetic
+    - match: katy
+      scope: keyword.declaration.type
+    - match: heather
+      scope: keyword.operator.word
+    - match: cinnamon
+      scope: support
+    - match: fading
+      scope: keyword.declaration.union
+    - match: aquamarine
+      scope: markup.raw.block
+    - match: hello
+      scope: entity.name.tag
+    - match: cedar
+      scope: markup.underline.link
+    - match: lavender
+      scope: meta.interpolation
+    - match: crude
+      scope: keyword.other
+    - match: citrus
+      scope: keyword.declaration.enum
+    - match: warm
+      scope: keyword.declaration.class
+    - match: illicit
+      scope: string.unquoted
+    - match: hot
+      scope: keyword.declaration.trait
+    - match: mauvelous
+      scope: meta.function
+    - match: phoenix
+      scope: comment.line
+    - match: jurassic
+      scope: meta.path
+    - match: greedy
+      scope: meta.tag
+    - match: java
+      scope: keyword.control.conditional
+    - match: japanese
+      scope: constant.numeric.float.binary
+    - match: indigo
+      scope: punctuation.definition.generic.end
+    - match: oriental
+      scope: meta
+

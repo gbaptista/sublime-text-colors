@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+
+name: STColors
+file_extensions:
+  - stcolors
+scope: source.stc
+
+contexts:
+  main:
+{PLACEHOLDER}
