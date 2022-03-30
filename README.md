@@ -17,4 +17,4 @@ git clone \
 
 Open the `demo.stcolors` file to check the colors.
 
-To debug the current scope of a name: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>p</kbd
+To debug the current scope of a name: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
